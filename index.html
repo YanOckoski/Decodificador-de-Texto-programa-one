@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/body.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/responsivo.css">
+    
+        <title>Umbrella Decoder - Alura Challenge</title>
+    </head>
+
+    <header>
+        <nav class="container">
+            <h1 class="titulo">Umbrella Decoder</h1>
+            <img class="logo" src="imagens/umbrella.jpg" alt="simbolo da umbrella">
+          </nav>
+     
+    </header>
+
+<body>
+
+<main>
+    <section class="input">
+        
+        <textarea id="input__entrada" placeholder="Digite seu texto."></textarea>
+
+        <div class="informacao">
+            <img id="aviso__imagem" src="imagens/exclamação.png" alt="Ponto de exclamação" />
+           <h6>Apenas letras minúsculas e sem acentos.</h6> 
+        </div>
+        
+        <div class="botoes">
+            <button id="botao__criptografar" onclick="criptografaTexto()">Criptografar</button>
+            <button id="botao__descriptografar" onclick="descriptografaTexto()">Descriptografar</button>
+        </div>
+    </section>
+    
+  
+    <section>
+       
+        <textarea id="input__saida" placeholder="Ele sairá aqui!" readonly></textarea>
+        
+
+    <div class="botoes2">
+        <button id="botao__copiar" onclick="copiaTexto()">Copiar</button>
+        <button id="botao__apagar" onclick="limpaCampos()">Apagar</button>
+    </div>
+    </section>
+</main>
+
+
+<footer class="footer_cont">
+    <p>Desenvolvido por Yan Ockoski - Programa ONE - Oracle Next Education</p>
+    <a href="https://github.com/YanOckoski" target="_blank"><img src="imagens/github.png"  alt="Logo do Github" /></a>
+    <a href="https://www.linkedin.com/in/yanockoski/" target="_blank"><img src="imagens/linkedin.png" alt="Logo do Linkedin" /></a>
+</footer>
+    
+<!-- SCRIPTS -->
+<script src="main.js"></script>
+<script src="descripto.js"></script>
+<script src="copiar.js"></script>
+<script src="apagar.js"></script>
+  
+</body>
+
+
+</html>

@@ -1,0 +1,50 @@
+ @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+
+  
+.container {
+    font-family: "Shadows Into Light", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 0.625rem;
+    top: 0;
+    height: 3.752rem;
+    width: 100%;
+    background-image: linear-gradient(90deg,  rgb(216, 125, 108), rgb(184, 34, 34));
+    
+}
+
+.logo {
+    position: relative;
+    left: 10px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 8px;
+    
+}
+
+.titulo {
+font-family: 'Prosto One', cursive;
+margin: 13px;
+text-align: center;
+}
+
+
+
+@media screen and (max-width:1040px) {
+    
+header {
+        font-family: "Shadows Into Light", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        gap: 0.625rem;
+        top: 0;
+        height: 3.752rem;
+        width: 100%;
+        background-image: linear-gradient(90deg,  rgb(216, 125, 108), rgb(184, 34, 34));
+    }
+}
